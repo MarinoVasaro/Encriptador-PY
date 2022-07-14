@@ -39,10 +39,10 @@ def desencriptarArchivos(ruta):
     archivo.write(archivoDesenncriptado)
     archivo.close()
     print('El desencriptado se realizo correctamente')
-
+#Inicio de interfaz
 eleccion = input('Presione la letra "E" para encriptar, o "D" para desencriptar')
 ruta = input('Ingrese la ruta del archivo')
-
+#Opciones de interfaz
 if eleccion == 'E':
     encriptarArchivos(ruta)
 else:
